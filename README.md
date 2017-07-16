@@ -7,13 +7,13 @@ I've basically ported the React experimental adapter to Vue. This extension supp
 ### Install
 Install the adapter from GitHub (not ready for publishing to NPM!):
 
-```(bash)
+```
 npm i --save jameswragg/fractal-vue-adapter
 ```
 
 Plug into your `fractal.js` config
 
-```(js)
+```javascript
 fractal.components.engine('fractal-vue-adapter');
 fractal.components.set('ext', '.js');
 ```
@@ -22,7 +22,7 @@ fractal.components.set('ext', '.js');
 
 A simple button component
 
-```(js)
+```javascript
 const Vue = require('vue');
 
 const Button = new Vue({
@@ -35,7 +35,7 @@ module.exports = Button;
 
 Context provided via `button.config.json`
 
-```(json)
+```json
 {
   "context": {
     "label": "Boo!"

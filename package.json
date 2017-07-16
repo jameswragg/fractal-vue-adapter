@@ -1,0 +1,25 @@
+{
+  "name": "fractal-vue-adapter",
+  "version": "1.0.0",
+  "description": "An experimental adapter to use Vue components in Fractal",
+  "main": "adapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswragg/fractal-vue-adapter.git"
+  },
+  "author": "James Wragg <me@jameswragg.com> (http://jameswragg.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswragg/fractal-vue-adapter/issues"
+  },
+  "homepage": "https://github.com/jameswragg/fractal-vue-adapter#readme",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.4",
+    "bluebird": "^3.5.0",
+    "vue": "^2.4.1",
+    "vue-server-renderer": "^2.4.1"
+  }
+}

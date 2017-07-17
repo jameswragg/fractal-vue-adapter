@@ -1,4 +1,7 @@
 # fractal-vue-adapter
+
+DO NOT USE THIS.
+
 [WIP] Proof of concept adapter to use Vue components in Fractal (http://fractal.build).
 
 I've basically ported the React experimental adapter to Vue. This extension supports individual Vue instances with context passed as props.
